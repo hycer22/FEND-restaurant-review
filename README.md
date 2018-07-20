@@ -6,7 +6,7 @@ The original restaurant review website was lack of responsive design, accessibil
 
 # Installation
 
-* Download the zip file and unzip it.
+* Clone the git or download the file.
 * Make sure Python is installed on your computer.
 * With python 2.x, run the server with `python -m SimpleHTTPServer 8000`.
 * With python 3.x, run the server with `python3 -m http.server 8000`.
