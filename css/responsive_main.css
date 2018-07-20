@@ -1,0 +1,57 @@
+/* ================responsive design for the main page =================== */
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  #restaurants-list li {
+    width: 35%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #restaurants-list li {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #restaurants-list li {
+    width: 18%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  #restaurants-list {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #restaurants-list li {
+    width: 14%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .filter-options {
+    height: 160px;
+  }
+
+  .filter-options h2 {
+    display: block;
+    line-height: 50px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .filter-options select {
+    display: block;
+    margin: 20px auto;
+    margin-top: 0;
+  }
+
+  #restaurants-list li {
+    width: 70%;
+    height: 480px;
+  }
+
+  #restaurants-list li a {
+    left: 50%;
+    margin-left: -75px;
+}

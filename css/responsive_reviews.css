@@ -1,0 +1,9 @@
+/* ================responsive design for the review page =================== */
+@media screen and (max-width: 720px) {
+  #restaurant-container, #reviews-container {
+    width: 80%;
+  }
+  #reviews-container {
+    margin-top: 0;
+  }
+}
